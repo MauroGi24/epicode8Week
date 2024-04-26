@@ -1,0 +1,30 @@
+h1 {
+  text-align: center;
+}
+
+.card-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.btn-primary {
+  --bs-btn-bg: #1ED760;
+  --bs-btn-border-color: black;
+  --bs-btn-color: black;
+  --bs-btn-hover-bg: black;
+  --bs-btn-active-bg: #1ED760;
+  border-radius: 15px;
+}
+
+.card-over:hover {
+  box-shadow: 0px 0px 25px 0px #1ED760;
+}
+
+.btn-outline-success {
+  --bs-btn-color: black;
+  --bs-btn-border-color: black;
+  --bs-btn-hover-bg: black;
+  --bs-btn-hover-border-color: black;
+  --bs-btn-active-bg: #1ED760;
+  background-color: #1ED760;
+}
